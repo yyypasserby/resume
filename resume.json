@@ -72,45 +72,86 @@
   },
   "projects": [
     {
-      "title": "Awesome Project #1",
-      "category": "FOSS",
-      "url": "http://project-page.org",
-      "repo": "https://project-repo.com",
+      "title": "Miller's Hollow Online",
+      "category": "Course",
+      "url": "",
+      "repo": "",
       "media": [],
-      "role": "Contributor",
-      "summary": "Show off your project work with a Markdown-and-HTML friendly summary of your role on the project. Software projects, creative projects, business projects can all appear here.",
-      "description": "A description of the project, for audiences that may not be familiar with it. Like the summary section, can include **Markdown** and inline <strong>HTML</strong> formatting.",
+      "role": "Lead Programmer",
+      "summary": "Created a website that let people play offline board game Werewolves of Miller's Hollow in the browser using video call",
+      "description": "Best Project of Web Apps Dev",
       "highlights": [
-        "Project Highlight #1",
-        "Project Highlight #2",
-        "Project Highlight #3"
+        "Developed the video communication mechanism that supported 9 people playing together using WebRTC",
+        "Implemented a complete set of game logic and real-time asynchronous updates of the web UI using jQuery and WebSocket",
+        "Built the backend service with a complete user system based on Django and the game WebSocket server using Channels"
       ],
       "keywords": [
-        "Tag1",
-        "Tag2",
-        "Tag3",
-        "Tag4"
+        "WebRTC",
+        "Django",
+        "Channels",
+        "WebSocket"
       ]
     },
     {
-      "title": "Asteroids",
-      "category": "FOSS",
-      "url": "http://asteroids-demo.org",
-      "repo": "https://asteroids-repo.com",
+      "title": "HackShanghai - Chrome Theatre",
+      "category": "Hackathon",
+      "url": "",
+      "repo": "",
       "media": [],
-      "role": "Creator",
-      "summary": "Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.",
-      "description": "A 3D Asteroids clone with Unreal 4 and cross-platform C++.",
+      "role": "Team Leader",
+      "summary": "",
+      "description": "Rank 2nd/60 in the largest 24-hour Hackathon in China",
       "highlights": [
-        "Project Highlight #1",
-        "Project Highlight #2",
-        "Project Highlight #3"
+        "Proposed a new way and a feasible solution to watch online videos in the browser by using smart phones as remote controls",
+        "Created a Chrome extension to search videos based on user interests and organize them into watch lists with a clear UI",
+        "Built the WebSocket server on the Chrome extension that received operation commands in JSON through WebSocket",
+        "Developed the Android app that operated the Chrome extension by recognizing the screen touches and the hand gestures"
       ],
       "keywords": [
-        "C++",
-        "Unreal Engine",
-        "3D",
-        "DirectX"
+        "JavaScript",
+        "Chrome",
+        "Mobile Development",
+        "WebSocket"
+      ]
+    },
+    {
+      "title": "Shaiguo: Live Stream Platform",
+      "category": "Practical Training",
+      "url": "",
+      "repo": "",
+      "media": [],
+      "role": "Lead Programmer",
+      "summary": "",
+      "description": "",
+      "highlights": [
+        "Created a website that let people open their own video streams on the Internet and shared streams with anyone using a browser",
+        "Developed highly-modular and reusable components based on AngularJS to make frontend code clean and maintainable",
+        "Built the communication protocol between frontend and the RESTful backend based on JSON, to compartmentalize the design"
+      ],
+      "keywords": [
+        "Angular.js",
+        "REST",
+        "Flash Streaming"
+      ]
+    },
+    {
+      "title": "RE2DFA Visualization",
+      "category": "Course",
+      "url": "",
+      "repo": "",
+      "media": [],
+      "role": "Personal",
+      "summary": "",
+      "description": "Best Project of Compilers",
+      "highlights": [
+        "Implement the algorithm using Python to generate NFA/DFS/min-DFA from the basic regular expressions",
+        "Developed a website to visualize three automata as the state machine diagrams based on the user-input regular expressions"
+      ],
+      "keywords": [
+        "Regex",
+        "NFA",
+        "DFA",
+        "min-DFA"
       ]
     }
   ],
@@ -164,8 +205,8 @@
         "level": "advanced",
         "skills": [
           "JavaScript",
-          "Django",
           "Node.js",
+          "Django",
           "HTML 5",
           "MVC",
           "REST"
@@ -179,7 +220,9 @@
           "C++ STL",
           "Java",
           "Python",
-          "Agile/CI/Git/Testing"
+          "Agile",
+          "Git",
+          "Testing"
         ]
       }
     ],
@@ -196,7 +239,7 @@
   ],
   "languages": [
     {
-      "language": "Chinese",
+      "language": "Mandarin",
       "level": "native"
     },
     {
