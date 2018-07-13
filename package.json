@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jsonresume-theme-kendall": "^0.1.19",
     "jsonresume-theme-onepage": "0.0.3"
   }
 }

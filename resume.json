@@ -6,7 +6,6 @@
   },
   "info": {
     "label": "Software Engineer",
-    "brief": "",
     "image": ""
   },
   "contact": {
@@ -31,44 +30,42 @@
     }
   ],
   "employment": {
-    "summary": "Optional overall employment summary. Not used in most themes.",
+    "summary": "",
     "history": [
       {
-        "employer": "Most Recent Employer",
-        "url": "http://employer-website.com",
-        "position": "Head Honcho",
-        "summary": "A summary of your role in this position. Can include **Markdown** and inline <strong>HTML</strong> formatting.",
-        "start": "2013-10",
+        "employer": "Google",
+        "position": "Software Engineering Intern",
+        "summary": "Worked on Java layer of Android WebView to enable Finch, a server-controlled A/B testing framework in Chrome",
+        "start": "2017-05",
+        "end": "2017-08",
         "keywords": [
-          "spin widgets",
-          "CRM",
-          "PM",
-          "Ninjitsu",
-          "Six Sigma"
+          "Android WebView",
+          "Chrome",
+          "JNI"
         ],
         "highlights": [
-          "Increased profits on left-handed spin widgets by 35%.",
-          "Participated in iterative/incremental devolution.",
-          "Promoted to Head Ninja after 500 successful cage matches."
+          "Created an Android JobService for test data fetching to reduce battery and memory overhead on mobile devices",
+          "Developed a configuration service that shared test data with all the WebViews on the system to reduce the data usage",
+          "Designed a strong and robust IPC mechanism to let WebView work properly when the service is down or killed by the system",
+          "Introduced a new platform Android WebView on the Finch Server that test designers can specify as a target platform",
+          "Updated the data analysis dashboard for Android WebView to support Finch data collection which is used by the whole team"
         ]
       },
       {
-        "employer": "Previous Employer",
-        "url": "http://employer-website.com",
-        "position": "Worker Bee",
-        "summary": "A summary of your previous role. Can include **Markdown** and inline <strong>HTML</strong> formatting.",
+        "employer": "Microsoft",
+        "position": "Software Engineering Intern",
+        "summary": "Worked on the OpenPublish service that automated the publish of the documentation from markdown repos to MSDN website",
         "start": "2009-07",
         "end": "2013-10",
         "keywords": [
-          "keyword1",
-          "KW2",
-          "KW2++",
-          "YAKW"
+          "Visual Studio",
+          "OpenPublish",
+          "C#"
         ],
         "highlights": [
-          "Highlight #1.",
-          "Highlight #2.",
-          "Highlight #3."
+          "Built an intuitive frontend management portal based on AngularJS with interactive user interface to operate document repos",
+          "Developed a command line tool in Python and C# that let documentation owners view their final-generated website locally",
+          "Implemented the server-side logic to generate change log and build log for the documentation owners to look for errors"
         ]
       }
     ]
@@ -118,51 +115,45 @@
     }
   ],
   "education": {
-    "summary": "Optional overall education summary. Not used in most themes.",
-    "level": "degree",
-    "degree": "BSCS",
-    "history": [
-      {
-        "institution": "Acme University",
-        "title": "BSCS",
-        "url": "http://acmeuniversity.edu",
-        "start": "2004-09",
-        "end": "2009-06",
-        "grade": "3.5",
-        "summary": "Graduate of Acme University, summer of 2009. Go [Coyotes](https://en.wikipedia.org/wiki/Coyote)!",
-        "curriculum": [
-          "Data Algorithms",
-          "Optimization",
-          "Neural Networks",
-          "C",
-          "C++",
-          "Java",
-          "HTTP",
-          "TCP/IP"
-        ]
-      }
-    ]
-  },
-  "service": {
     "summary": "",
+    "level": "",
+    "degree": "",
     "history": [
       {
-        "flavor": "volunteer",
-        "position": "Volunteer Coordinator",
-        "organization": "The Mommies Network",
-        "url": "http://themommiesnetwork.org",
-        "start": "2006-06",
-        "summary": "A summary of your volunteer experience at this organization. Can include **Markdown** and inline <strong>HTML</strong> formatting.",
-        "highlights": []
+        "institution": "Carnegie Mellon University",
+        "area": "Information Networking",
+        "studyType": "Master",
+        "title": "M.S in Information Networking",
+        "url": "http://www.cmu.edu",
+        "start": "2016-08",
+        "end": "2018-05",
+        "grade": "3.69",
+        "summary": "",
+        "curriculum": [
+          "Web Apps Dev",
+          "Software Construction",
+          "Cloud Computing",
+          "Machine Learning",
+          "Distributed Systems"
+        ]
       },
       {
-        "flavor": "military",
-        "position": "MOS",
-        "organization": "Air Force",
-        "url": "https://service-website.mil",
-        "start": "2004",
-        "summary": "A summary of your service experience with this organization. Can include **Markdown** and inline <strong>HTML</strong> formatting.",
-        "highlights": []
+        "institution": "Southeast University",
+        "area": "Software Engineering",
+        "studyType": "Bachelor",
+        "title": "B.E in Software Engineering",
+        "url": "http://www.seu.edu.cn",
+        "start": "2012-09",
+        "end": "2016-06",
+        "grade": "3.79",
+        "summary": "Rank 1st/137",
+        "curriculum": [
+          "Data Structures",
+          "Compilers",
+          "Operating Systems",
+          "Software Engineering",
+          "Software Tests"
+        ]
       }
     ]
   },
@@ -172,186 +163,67 @@
         "name": "Web Development",
         "level": "advanced",
         "skills": [
-          "LAMP",
           "JavaScript",
+          "Django",
+          "Node.js",
           "HTML 5",
-          "Angular.js",
-          "jQuery",
-          "Sass",
-          "LESS"
+          "MVC",
+          "REST"
         ]
       },
       {
-        "name": "Ninjitsu",
-        "level": "intermediate",
+        "name": "Software Engineering",
+        "level": "master",
         "skills": [
-          "Tokagure Ryu",
-          "Shuriken",
-          "Yogen"
-        ]
-      },
-      {
-        "name": "Skillset #3",
-        "level": "beginner",
-        "skills": [
-          "Your",
-          "keywords",
-          "here"
+          "C",
+          "C++ STL",
+          "Java",
+          "Python",
+          "Agile/CI/Git/Testing"
         ]
       }
     ],
-    "list": []
+    "list": [
+    ]
   },
   "samples": [
     {
-      "title": "Work Sample #1",
-      "summary": "A technical or creative **work sample**.",
-      "url": "http://project-repo.com",
+      "title": "RE2DFA Visualization",
+      "summary": "A handy tool to visualize the process that converts Regular Expression (RE) to Minimized Deterministic Finite Automaton (min-DFA).",
+      "url": "http://compiler-lab.herokuapp.com",
       "date": "2015"
-    },
-    {
-      "title": "Creative Sample #2",
-      "summary": "Another technical or creative sample. You can use [Markdown](https://daringfireball.net/projects/markdown/) here.",
-      "url": "http://project-repo.com",
-      "date": "2015"
-    }
-  ],
-  "writing": [
-    {
-      "title": "My Blog",
-      "publisher": {
-        "name": "Medium.com",
-        "url": "https://medium.com"
-      },
-      "flavor": "blog",
-      "date": "2010",
-      "summary": "Your blog or online home.",
-      "url": "http://coding-snorer.com"
-    },
-    {
-      "title": "Something I Wrote Once",
-      "flavor": "essay",
-      "date": "2009",
-      "summary": "List your blogs, articles, essays, novels, and dissertations.",
-      "publisher": {
-        "name": "Acme University Press",
-        "url": "http://press.acmeuniversity.edu"
-      },
-      "url": "http://codeproject.com/something-i-wrote-once"
-    }
-  ],
-  "reading": [
-    {
-      "title": "Other Copenhagens",
-      "flavor": "book",
-      "url": "http://www.amazon.com/Other-Copenhagens-And-Stories/dp/0984749209",
-      "author": "Edmund Jorgensen"
-    },
-    {
-      "title": "r/programming",
-      "flavor": "website",
-      "url": "https://www.reddit.com/r/programming"
-    },
-    {
-      "title": "Hacker News",
-      "flavor": "website",
-      "url": "https://news.ycombinator.com/"
-    }
-  ],
-  "recognition": [
-    {
-      "flavor": "award",
-      "from": "HackMyResume",
-      "title": "Awesomeness Award",
-      "event": "HMR Release",
-      "url": "https://fluentdesk.com/hackmyresume",
-      "date": "2016",
-      "summary": "Thanks for being a HackMyResume / FluentCV user!"
-    },
-    {
-      "flavor": "industry",
-      "from": "Big Software",
-      "title": "MVP: SpinWidget Technology",
-      "event": "Yearly Roundup",
-      "date": "2015-08-03",
-      "summary": "For work in promotion and popularization of SpinWidget technology."
-    }
-  ],
-  "references": [
-    {
-      "name": "John Doe",
-      "category": "professional",
-      "role": "Manager @ Somewhere Inc.",
-      "private": true,
-      "summary": "Contact information available on request.",
-      "contact": [
-        {
-          "flavor": "email",
-          "value": "john.doe@somewhere.com"
-        }
-      ]
-    },
-    {
-      "name": "Jane Q. Fullstacker",
-      "category": "technical",
-      "summary": "Contact information available on request.",
-      "role": "Coworker",
-      "private": true,
-      "contact": [
-        {
-          "flavor": "email",
-          "value": "jane.fullstacker@somewhere.com"
-        }
-      ]
-    }
-  ],
-  "testimonials": [
-    {
-      "name": "John Doe",
-      "flavor": "professional",
-      "quote": "Such-and-such is awesome! I'd hire him/her again in a second!",
-      "private": false
-    },
-    {
-      "name": "Somebody Important",
-      "flavor": "technical",
-      "quote": "Hands-down *the best developer/manager/spelunker/coworker/etc* I've ever worked with. Emphasis *mine!*",
-      "private": false
     }
   ],
   "languages": [
     {
-      "language": "English",
+      "language": "Chinese",
       "level": "native"
     },
     {
-      "language": "Spanish",
+      "language": "English",
       "level": "advanced"
-    },
-    {
-      "language": "C++",
-      "level": "intermediate"
     }
   ],
   "interests": [
     {
       "name": "GitHub",
-      "summary": "Regular GitHub user and tinkerer.",
+      "summary": "",
       "keywords": [
         "GitHub",
-        "git",
-        "GitHub Desktop (OS X)",
-        "LFS",
-        "GitHub API"
+        "git"
       ]
     },
     {
-      "name": "chess",
-      "summary": "Avid chess player.",
+      "name": "Basketball",
+      "summary": "Regular basketball player",
       "keywords": [
-        "Sicilian",
-        "King's Gambit",
-        "Ruy Lopez"
+      ]
+    },
+    {
+      "name": "Snowboard",
+      "summary": "Beginner snowboarder, strive to carve",
+      "keywords": [
+        "snowboard"
       ]
     }
   ]
