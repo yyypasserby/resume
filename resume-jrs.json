@@ -81,8 +81,8 @@
       "level": "advanced",
       "keywords": [
         "JavaScript",
-        "Django",
         "Node.js",
+        "Django",
         "HTML 5",
         "MVC",
         "REST"
@@ -96,7 +96,9 @@
         "C++ STL",
         "Java",
         "Python",
-        "Agile/CI/Git/Testing"
+        "Agile",
+        "Git",
+        "Testing"
       ]
     }
   ],
@@ -124,7 +126,7 @@
   ],
   "languages": [
     {
-      "language": "Chinese",
+      "language": "Mandarin",
       "level": "native"
     },
     {
