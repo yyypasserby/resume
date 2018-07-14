@@ -18,7 +18,11 @@
         {{#if location}}<span class="location">{{location}}</span>{{/if}}
       <p>{{{ summary }}}</p>
       {{> highlights }}
-      {{#if keywords}}<span class="keywords">{{#each keywords}}{{{ . }}} {{/each}}</span>{{/if}}
+      {{#if keywords}}
+      <span class="keywords">
+        {{#each keywords}}{{{ . }}}{{#unless @last}}, {{/unless}}{{/each}}
+      </span>
+      {{/if}}
     </div>
     {{/body-employment}}
   {{/each}}

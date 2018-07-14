@@ -12,9 +12,13 @@
       {{#if location}}<span class="location">{{location}}</span>{{/if}}
       {{{ summary }}}
       {{> highlights }}
-      {{#if curriculum}}<span class="keywords">{{#each curriculum}}{{{ . }}} {{/each}}</span>{{/if}}
+      {{#if curriculum}}
+      <span class="keywords">
+        {{#each curriculum}}{{{ . }}}{{#unless @last}}, {{/unless}}{{/each}}
+      </span>
+      {{/if}}
     </div>
     {{/body-education}}
-  {{/each}}
-</section>
-{{/section}}
+    {{/each}}
+  </section>
+  {{/section}}

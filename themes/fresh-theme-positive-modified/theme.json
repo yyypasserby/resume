@@ -1,7 +1,7 @@
 {
   "title": "positive",
   "description": "A dynamic two-color résumé theme for technical professionals.",
-  "author": "hacksalot <hacksalot@indevious.com> (https://github.com/hacksalot)",
+  "author": "yyypasserby <yiyunyao@live.com> (https://github.com/yyypasserby)",
   "engine": "handlebars",
   "inherits": {
     "txt": "basis",
