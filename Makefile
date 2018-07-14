@@ -1,4 +1,4 @@
-theme = node_modules/fresh-theme-positive
+theme = themes/fresh-theme-positive
 
 default: html
 all: all_format

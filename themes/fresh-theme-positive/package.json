@@ -1,0 +1,60 @@
+{
+  "_from": "fresh-theme-positive@^0.1.0",
+  "_id": "fresh-theme-positive@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-krlIjtYHKwVQb2cDuZCFuZTKD4Y=",
+  "_location": "/fresh-theme-positive",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "fresh-theme-positive@^0.1.0",
+    "name": "fresh-theme-positive",
+    "escapedName": "fresh-theme-positive",
+    "rawSpec": "^0.1.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/fresh-theme-positive/-/fresh-theme-positive-0.1.0.tgz",
+  "_shasum": "92b9488ed6072b05506f6703b99085b994ca0f86",
+  "_spec": "fresh-theme-positive@^0.1.0",
+  "_where": "/Users/yyypasserby/Workspace/Resume/themes",
+  "author": {
+    "name": "Mackey James",
+    "email": "hacksalot@indevious.com",
+    "url": "https://indevious.com"
+  },
+  "bugs": {
+    "url": "https://github.com/fresh-standard/fresh-theme-positive/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A dynamic two-color FRESH resume theme for technical professionals.",
+  "homepage": "https://github.com/fresh-standard/fresh-theme-positive#readme",
+  "keywords": [
+    "resume",
+    "CV",
+    "FRESH",
+    "HackMyResume",
+    "FluentCV",
+    "employment",
+    "FRESH Resume Schema",
+    "FRESCA",
+    "career"
+  ],
+  "license": "MIT",
+  "main": "theme.json",
+  "name": "fresh-theme-positive",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fresh-standard/fresh-theme-positive.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.0"
+}
