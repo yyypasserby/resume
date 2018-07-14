@@ -1,4 +1,4 @@
-theme = node_modules/jsonresume-theme-onepage
+theme = node_modules/fresh-theme-positive
 
 default: html
 all: all_format
@@ -8,3 +8,6 @@ all_format:
 
 html:
 	hackmyresume build resume.json to out/resume.html -t $(theme)
+
+convert:
+	hackmyresume convert resume.json to resume-jrs.json
