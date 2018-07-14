@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fresh-theme-positive": "^0.1.0",
+    "jsonresume-theme-flat": "^0.3.7",
     "jsonresume-theme-kendall": "^0.1.19",
     "jsonresume-theme-onepage": "0.0.3"
   }
