@@ -1,4 +1,4 @@
-theme = themes/fresh-theme-positive
+theme = themes/fresh-theme-positive-modified
 
 default: html
 all: all_format

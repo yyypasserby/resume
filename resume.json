@@ -11,7 +11,7 @@
     "image": ""
   },
   "contact": {
-    "website": "http://yyypasserby.github.io",
+    "website": "https://yyypasserby.github.io",
     "phone": "412-880-9667",
     "email": "yiyunyao@live.com",
     "other": []
@@ -74,15 +74,16 @@
   },
   "projects": [
     {
-      "title": "Miller's Hollow Online",
+      "title": "Millers Hollow Online",
       "category": "Course",
       "url": "",
       "repo": "",
       "media": [],
       "role": "Lead Programmer",
-      "summary": "Created a website that let people play offline board game Werewolves of Miller's Hollow in the browser using video call",
-      "description": "Best Project of Web Apps Dev",
+      "summary": "Best Project of Web Apps Dev",
+      "description": "",
       "highlights": [
+        "Created a website that let people play offline board game Werewolves of Miller's Hollow in the browser using video call",
         "Developed the video communication mechanism that supported 9 people playing together using WebRTC",
         "Implemented a complete set of game logic and real-time asynchronous updates of the web UI using jQuery and WebSocket",
         "Built the backend service with a complete user system based on Django and the game WebSocket server using Channels"
@@ -101,8 +102,8 @@
       "repo": "",
       "media": [],
       "role": "Team Leader",
-      "summary": "",
-      "description": "Rank 2nd/60 in the largest 24-hour Hackathon in China",
+      "summary": "Rank 2nd/60 in the largest 24-hour Hackathon in China",
+      "description": "",
       "highlights": [
         "Proposed a new way and a feasible solution to watch online videos in the browser by using smart phones as remote controls",
         "Created a Chrome extension to search videos based on user interests and organize them into watch lists with a clear UI",
@@ -117,33 +118,13 @@
       ]
     },
     {
-      "title": "Shaiguo: Live Stream Platform",
-      "category": "Practical Training",
-      "url": "",
-      "repo": "",
-      "media": [],
-      "role": "Lead Programmer",
-      "summary": "",
-      "description": "",
-      "highlights": [
-        "Created a website that let people open their own video streams on the Internet and shared streams with anyone using a browser",
-        "Developed highly-modular and reusable components based on AngularJS to make frontend code clean and maintainable",
-        "Built the communication protocol between frontend and the RESTful backend based on JSON, to compartmentalize the design"
-      ],
-      "keywords": [
-        "Angular.js",
-        "REST",
-        "Flash Streaming"
-      ]
-    },
-    {
       "title": "RE2DFA Visualization",
       "category": "Course",
-      "url": "",
+      "url": "http://compiler-lab.herokuapp.com",
       "repo": "",
       "media": [],
       "role": "Personal",
-      "summary": "",
+      "summary": "A handy tool to visualize the process that converts Regular Expression (RE) to Minimized Deterministic Finite Automaton (min-DFA).",
       "description": "Best Project of Compilers",
       "highlights": [
         "Implement the algorithm using Python to generate NFA/DFS/min-DFA from the basic regular expressions",
@@ -171,7 +152,7 @@
         "start": "2016-08",
         "end": "2018-05",
         "grade": "3.69",
-        "summary": "",
+        "summary": "QPA: 3.69/4.0",
         "curriculum": [
           "Web Apps Dev",
           "Software Construction",
@@ -189,7 +170,7 @@
         "start": "2012-09",
         "end": "2016-06",
         "grade": "3.79",
-        "summary": "Rank 1st/137",
+        "summary": "QPA: 3.79/4.0 Rank 1st/137",
         "curriculum": [
           "Data Structures",
           "Compilers",
@@ -203,23 +184,22 @@
   "skills": {
     "sets": [
       {
-        "name": "Web Development",
+        "name": "Web Dev",
         "level": "advanced",
         "skills": [
           "JavaScript",
           "Node.js",
           "Django",
-          "HTML 5",
+          "HTML5",
           "MVC",
           "REST"
         ]
       },
       {
-        "name": "Software Engineering",
+        "name": "Engineering",
         "level": "master",
         "skills": [
-          "C",
-          "C++ STL",
+          "C++STL",
           "Java",
           "Python",
           "Agile",
@@ -230,46 +210,5 @@
     ],
     "list": [
     ]
-  },
-  "samples": [
-    {
-      "title": "RE2DFA Visualization",
-      "summary": "A handy tool to visualize the process that converts Regular Expression (RE) to Minimized Deterministic Finite Automaton (min-DFA).",
-      "url": "http://compiler-lab.herokuapp.com",
-      "date": "2015"
-    }
-  ],
-  "languages": [
-    {
-      "language": "Mandarin",
-      "level": "native"
-    },
-    {
-      "language": "English",
-      "level": "advanced"
-    }
-  ],
-  "interests": [
-    {
-      "name": "GitHub",
-      "summary": "",
-      "keywords": [
-        "GitHub",
-        "git"
-      ]
-    },
-    {
-      "name": "Basketball",
-      "summary": "Regular basketball player",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Snowboard",
-      "summary": "Beginner snowboarder, strive to carve",
-      "keywords": [
-        "snowboard"
-      ]
-    }
-  ]
+  }
 }
