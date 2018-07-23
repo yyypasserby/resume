@@ -6,8 +6,8 @@
   },
   "info": {
     "label": "Software Engineer",
-    "brief": "May your choices reflect your hope, not your fear.",
-    "quote": "May your choices reflect your hope, not your fear.",
+    "brief": "",
+    "quote": "",
     "image": ""
   },
   "contact": {
@@ -17,7 +17,7 @@
     "other": []
   },
   "location": {
-    "address": "707 Continental Circle, APT 1321",
+    "address": "707 Continental Circle, #1321",
     "city": "Mountain View",
     "region": "CA",
     "code": "94040",
@@ -37,37 +37,40 @@
       {
         "employer": "Google",
         "position": "Software Engineering Intern",
-        "summary": "Worked on Java layer of Android WebView to enable Finch, a server-controlled A/B testing framework in Chrome",
+        "summary": "Enabled and customized a serverside-controlled A/B testing framework in Android WebView",
         "start": "2017-05",
         "end": "2017-08",
         "keywords": [
-          "Android WebView",
-          "Chrome",
-          "JNI"
+          "Android",
+          "WebView",
+          "JNI",
+          "A/B Test",
+          "Java",
+          "Go"
         ],
         "highlights": [
-          "Created an Android JobService for test data fetching to reduce battery and memory overhead on mobile devices",
-          "Developed a configuration service that shared test data with all the WebViews on the system to reduce the data usage",
-          "Designed a strong and robust IPC mechanism to let WebView work properly when the service is down or killed by the system",
-          "Introduced a new platform Android WebView on the Finch Server that test designers can specify as a target platform",
-          "Updated the data analysis dashboard for Android WebView to support Finch data collection which is used by the whole team"
+          "Optimized the battery usage by building an Android JobService to fetch regular metadata from the server",
+          "Reduced the data usage by developing a service to share large metadata with all the WebView processes",
+          "Designed and built an IPC protocol to keep WebViews behave properly even when the supporting service is crashed or killed",
+          "Updated the dashboard to visualize and aggregate data from Android WebView platform."
         ]
       },
       {
         "employer": "Microsoft",
         "position": "Software Engineering Intern",
-        "summary": "Worked on the OpenPublish service that automated the publish of the documentation from markdown repos to MSDN website",
-        "start": "2009-07",
-        "end": "2013-10",
+        "summary": "Worked in OpenPublish Team to help build an automated solution for documentation publishing.",
+        "start": "2015-07",
+        "end": "2016-01",
         "keywords": [
-          "Visual Studio",
           "OpenPublish",
-          "C#"
+          "Markdown to Docs",
+          "C#",
+          "AngularJS"
         ],
         "highlights": [
-          "Built an intuitive frontend management portal based on AngularJS with interactive user interface to operate document repos",
-          "Developed a command line tool in Python and C# that let documentation owners view their final-generated website locally",
-          "Implemented the server-side logic to generate change log and build log for the documentation owners to look for errors"
+          "Designed and built an intuitive portal to let user track and manage their builds using AngularJS",
+          "Developed a tool to preview the documentation locally using C# and Mustache",
+          "Enabled the log viewing feature on the portal by exporting a new REST api to fetch logs"
         ]
       }
     ]
@@ -124,17 +127,19 @@
       "repo": "",
       "media": [],
       "role": "Personal",
-      "summary": "A handy tool to visualize the process that converts Regular Expression (RE) to Minimized Deterministic Finite Automaton (min-DFA).",
+      "summary": "Built a handy tool to visualize the conversion process from Regular Expression(RE) to Minimized Deterministic Finite Automaton(min-DFA)",
       "description": "Best Project of Compilers",
       "highlights": [
-        "Implement the algorithm using Python to generate NFA/DFS/min-DFA from the basic regular expressions",
-        "Developed a website to visualize three automata as the state machine diagrams based on the user-input regular expressions"
+        "Implemented the algorithm to generate NFA/DFA/min-DFA from basic Regular Expressions using Python",
+        "Visualized the NFA/DFA/min-DFA as state machine diagrams in SVG using NetworkX and Graphviz",
+        "Developed a easy-to-use website to let user interact with the process using Django."
       ],
       "keywords": [
         "Regex",
-        "NFA",
-        "DFA",
-        "min-DFA"
+        "min-DFA",
+        "Python",
+        "NetworkX",
+        "Graphviz"
       ]
     }
   ],
@@ -152,7 +157,7 @@
         "start": "2016-08",
         "end": "2018-05",
         "grade": "3.69",
-        "summary": "QPA: 3.69/4.0",
+        "summary": "QPA: 3.69/4.0 TAs for Web Apps Dev and Advanced Cloud Computing",
         "curriculum": [
           "Web Apps Dev",
           "Software Construction",
@@ -207,8 +212,6 @@
           "Testing"
         ]
       }
-    ],
-    "list": [
     ]
   }
 }

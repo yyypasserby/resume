@@ -20,11 +20,11 @@
       </header>
 
 
-      {{#has "info.brief"}}
       <section id="summary">
+      {{#has "info.brief"}}
         {{{ r.info.brief }}}
-      </section>
       {{/has}}
+      </section>
 
 
       {{!<!--
@@ -34,17 +34,17 @@
         icon into the global partial. For this theme, we're using Font Awesome.
       -->}}
 
-      {{#*inline "icon-skills"}}<span class="fa fa-lg fa-code"></span>{{/inline}}
+      {{#*inline "icon-education"}}{{/inline}}
+      {{> education _icon="icon-education"}}
+
+      {{#*inline "icon-skills"}}{{/inline}}
       {{> section/skills _icon="icon-skills"}}
 
-      {{#*inline "icon-employment"}}<span class="fa fa-lg fa-building"></span>{{/inline}}
+      {{#*inline "icon-employment"}}{{/inline}}
       {{> employment _icon="icon-employment"}}
 
-      {{#*inline "icon-projects"}}<span class="fa fa-lg fa-star"></span>{{/inline}}
-      {{> section/projects _icon="icon-projects"}}
-
-      {{#*inline "icon-education"}}<span class="fa fa-lg fa-mortar-board"></span>{{/inline}}
-      {{> education _icon="icon-education"}}
+      {{#*inline "icon-projects"}}{{/inline}}
+      {{> projects _icon="icon-projects"}}
 
       {{#*inline "icon-affiliation"}}<span class="fa fa-lg fa-share-alt"></span>{{/inline}}
       {{> section/affiliation _icon="icon-affiliation"}}
