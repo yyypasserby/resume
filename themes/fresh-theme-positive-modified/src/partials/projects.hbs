@@ -1,8 +1,8 @@
-{{#section 'projects'}}
+{{#section "projects"}}
 <hr>
 <section id="projects">
   {{#> header-projects }}
-    {{> header-icon _title="PROJECTS" _section="projects" _hdricon=(lookup . '_icon') }}
+    {{> header-icon _title="PROJECTS" _section="projects" _hdricon=(lookup . "_icon") }}
   {{/header-projects}}
   {{#each r.projects }}
     {{#> body-projects }}
