@@ -49,10 +49,10 @@
           "Go"
         ],
         "highlights": [
-          "Optimized the battery usage by building an Android JobService to fetch regular metadata from the server",
-          "Reduced the data usage by developing a service to share large metadata with all the WebView processes",
-          "Designed and built an IPC protocol to keep WebViews behave properly even when the supporting service is crashed or killed",
-          "Updated the dashboard to visualize and aggregate data from Android WebView platform."
+          "Built an Android JobService to fetch regular data in background to optimize battery usage",
+          "Developed an Android Service to share large common data among WebView processes to reduce data usage",
+          "Designed the IPC protocol between WebViews and Service to keep them work independently",
+          "Updated the dashboard to visualize and aggregate event data for Android WebView platform"
         ]
       },
       {
@@ -62,15 +62,15 @@
         "start": "2015-07",
         "end": "2016-01",
         "keywords": [
-          "OpenPublish",
-          "Markdown to Docs",
+          "AngularJS",
           "C#",
-          "AngularJS"
+          "Mustache",
+          "Python"
         ],
         "highlights": [
-          "Designed and built an intuitive portal to let user track and manage their builds using AngularJS",
+          "Designed and built a single-page application using AngularJS to track and manage documentation builds",
           "Developed a tool to preview the documentation locally using C# and Mustache",
-          "Enabled the log viewing feature on the portal by exporting a new REST api to fetch logs"
+          "Built the online log viewing feature and the corresponding RESTful API using AngualrJS and C#"
         ]
       }
     ]
