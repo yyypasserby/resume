@@ -82,23 +82,19 @@
       "level": "advanced",
       "keywords": [
         "JavaScript",
+        "React",
         "Node.js",
-        "Django",
-        "HTML5",
-        "MVC",
-        "REST"
+        "Django"
       ]
     },
     {
-      "name": "Engineering",
+      "name": "Backend",
       "level": "master",
       "keywords": [
-        "C++STL",
+        "C",
+        "C++",
         "Java",
-        "Python",
-        "Agile",
-        "Git",
-        "Testing"
+        "Python"
       ]
     }
   ]

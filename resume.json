@@ -86,15 +86,16 @@
       "summary": "Best Project of Web Apps Dev",
       "description": "",
       "highlights": [
-        "Created a website that let people play offline board game Werewolves of Miller's Hollow in the browser using video call",
-        "Developed the video communication mechanism that supported 9 people playing together using WebRTC",
-        "Implemented a complete set of game logic and real-time asynchronous updates of the web UI using jQuery and WebSocket",
-        "Built the backend service with a complete user system based on Django and the game WebSocket server using Channels"
+        "Created a website to play offline board game Werewolves of Miller's Hollow in the browser using Video calls",
+        "Developed a video communication mechanism with WebRTC to support 9 people playing the game together",
+        "Implemented a complete set of game logic with Vanilla JavaScript and real-time updates of UI with jQuery and WebSocket"
       ],
       "keywords": [
-        "WebRTC",
+        "Vanilla JavaScript",
+        "jQuery",
         "Django",
         "Channels",
+        "WebRTC",
         "WebSocket"
       ]
     },
@@ -108,38 +109,38 @@
       "summary": "Rank 2nd/60 in the largest 24-hour Hackathon in China",
       "description": "",
       "highlights": [
-        "Proposed a new way and a feasible solution to watch online videos in the browser by using smart phones as remote controls",
-        "Created a Chrome extension to search videos based on user interests and organize them into watch lists with a clear UI",
-        "Built the WebSocket server on the Chrome extension that received operation commands in JSON through WebSocket",
-        "Developed the Android app that operated the Chrome extension by recognizing the screen touches and the hand gestures"
+        "Proposed a new way and a feasible solution to control online videos playing remotely using Android phones",
+        "Developed a Chrome extension with Reveal.js and AngularJS to organize videos into watchlists based on user interest",
+        "Built a WebSocket server in the Chrome extension to receive status from Android device through WebSocket"
       ],
       "keywords": [
-        "JavaScript",
-        "Chrome",
-        "Mobile Development",
+        "Reveal.js",
+        "AngularJS",
+        "Chrome Extension",
         "WebSocket"
       ]
     },
     {
       "title": "RE2DFA Visualization",
       "category": "Course",
-      "url": "http://compiler-lab.herokuapp.com",
+      "url": "",
       "repo": "",
       "media": [],
       "role": "Personal",
       "summary": "Built a handy tool to visualize the conversion process from Regular Expression(RE) to Minimized Deterministic Finite Automaton(min-DFA)",
       "description": "Best Project of Compilers",
       "highlights": [
-        "Implemented the algorithm to generate NFA/DFA/min-DFA from basic Regular Expressions using Python",
-        "Visualized the NFA/DFA/min-DFA as state machine diagrams in SVG using NetworkX and Graphviz",
-        "Developed a easy-to-use website to let user interact with the process using Django."
+        "Implemented the algorithm in Python to generate NFA/DFA/min-DFA from basic Regular Expressions",
+        "Visualized the NFA/DFA/min-DFA as state machine diagrams in SVG with NetworkX and Graphviz",
+        "Developed a easy-to-use website with Django to let user interact with the process"
       ],
       "keywords": [
-        "Regex",
+        "Regular Expression",
         "min-DFA",
-        "Python",
         "NetworkX",
-        "Graphviz"
+        "Graphviz",
+        "Python",
+        "Django"
       ]
     }
   ],
@@ -193,23 +194,19 @@
         "level": "advanced",
         "skills": [
           "JavaScript",
+          "React",
           "Node.js",
-          "Django",
-          "HTML5",
-          "MVC",
-          "REST"
+          "Django"
         ]
       },
       {
-        "name": "Engineering",
+        "name": "Backend",
         "level": "master",
         "skills": [
-          "C++STL",
+          "C",
+          "C++",
           "Java",
-          "Python",
-          "Agile",
-          "Git",
-          "Testing"
+          "Python"
         ]
       }
     ]
