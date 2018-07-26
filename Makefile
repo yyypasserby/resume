@@ -1,13 +1,10 @@
 theme = themes/fresh-theme-positive-modified
 
-default: html
-all: all_format
-
-all_format:
-	hackmyresume build resume.json -t $(theme)
+default: all
+all: convert html
 
 html:
-	hackmyresume build resume.json to out/resume.html -t $(theme) --debug
+	hackmyresume build resume.json to out/resume.html -t $(theme)
 
 convert:
 	hackmyresume convert resume.json to resume-jrs.json

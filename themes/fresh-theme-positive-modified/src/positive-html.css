@@ -77,17 +77,17 @@ hr {
 }
 
 main {
-  padding: 15px;
-  max-width: 800px;
+  padding: 10px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
 section {
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
 
 section > div {
-  margin-top: 2em;
+  margin-top: 1em;
   overflow: hidden; /* Clear floated children */
 }
 
@@ -164,7 +164,7 @@ h1 {
 }
 
 h1, h2, .label {
-  font-size: 2.5em;
+  font-size: 2.0em;
   text-transform: uppercase;
   font-weight: 300;
   font-family: {{{fontList 'heading1'}}}
